@@ -28,11 +28,11 @@ html, body {height:100%;overflow:hidden;background-color: #f6f6f6;}
 .header-wrap {position: relative;min-height: 120px;}
 
 h1.page-title {color: #6d7081;font-weight: normal;font-size: 38px;line-height: normal;text-align: center;padding:30px 0 0; }
-.sum-pjt-wrap {color: #6d7081;font-size: 18px;text-align: center;display: inline-block;padding:8px 20px; border:1px solid #dcdcdc;border-radius: 15px;   -moz-border-radius:  15px;   -webkit-border-radius: 15px;letter-spacing: -1px;line-height: normal;position: absolute;left:5px;top:5px;background-color: #fcfcfc;}
+.sum-pjt-wrap {color: #6d7081;font-size: 18px;text-align: center;display: inline-block;padding:8px 20px; border:1px solid #dcdcdc;border-radius: 15px;   -moz-border-radius:  15px;   -webkit-border-radius: 15px;letter-spacing: -1px;line-height: normal;position: absolute;left:10px;top:10px;background-color: #fcfcfc;}
 .sum-pjt-wrap dl {font-weight: bold;}
 .sum-pjt-wrap dt {font-size: 120%;}
 .sum-pjt-date {font-size:14px;padding-top: 10px}
-.pjt-tag-exam-wrap {display: inline-block;right:10px;top:30px;position: absolute;}
+.pjt-tag-exam-wrap {display: inline-block;right:20px;top:30px;position: absolute;}
 .pjt-tag-label {display: inline-block;font-size: 13px;margin-left: 10px;}
 .pjt-tag-label  span {display: inline-block;vertical-align: middle;}
 .pjt-tag-label  i {width: 10px;height: 20px;vertical-align: middle;display: inline-block;border-radius: 3px;   -moz-border-radius: 3px;
@@ -45,7 +45,7 @@ h1.page-title {color: #6d7081;font-weight: normal;font-size: 38px;line-height: n
 .legend-atten em, 
 .legend-normal em {position:absolute;top:0;left:0;width:0;height:0;overflow:hidden;visibility:hidden;font-size:0;line-height:0;}
 
-.content-wrap {width: 95%;padding-left: 5%;}
+.content-wrap {width: 91%;padding-left: 9%;}
 .content-wrap:after {content:"";display:block;clear:both;font-size:0;width:0;height:0;}
 .waterfall-step-divide {position: relative;z-index: 1}
 .pjt-group-step1 {width: 14%;}
@@ -109,35 +109,8 @@ h1.page-title {color: #6d7081;font-weight: normal;font-size: 38px;line-height: n
 .legend-atten+.pjt-info {color: #f8af7a;}*/
 
 .open-link {display: inline-block;width: 20px;height: 20px;background-color: #1790f9;position: absolute;top: -10px;vertical-align: middle;border:3px solid #fff;border-radius: 50%; -moz-border-radius: 50%;   -webkit-border-radius: 50%;margin:0 2px 0 -20px;-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.50);-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.50);box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.50);}
-.open-link> i {
-display: inline-block;
-position: absolute;
-width: 0;
-height: 0;
-border-top: 9px solid transparent;
-border-right: 9px solid #fff;
--webkit-transform: rotate(300deg);
--moz-transform: rotate(300deg);
--ms-transform: rotate(300deg);
--o-transform: rotate(300deg);
-left:7px;
-top:3px;
-}
-.open-link>i:after {
-content: "";
-position: absolute;
-border: 0 solid transparent;
-border-top: 3px solid #fff;
-border-radius: 20px 0 0 0;
-top: -12px;
-left: -9px;
-width: 12px;
-height: 12px;
--webkit-transform: rotate(45deg);
--moz-transform: rotate(45deg);
--ms-transform: rotate(45deg);
--o-transform: rotate(45deg);
-}
+.open-link> i {display: inline-block;position: absolute;width: 0;height: 0;border-top: 9px solid transparent;border-right: 9px solid #fff;-webkit-transform: rotate(300deg);-moz-transform: rotate(300deg);-ms-transform: rotate(300deg);-o-transform: rotate(300deg);left:7px;top:3px;}
+.open-link>i:after {content: "";position: absolute;border: 0 solid transparent;border-top: 3px solid #fff;border-radius: 20px 0 0 0;top: -12px;left: -9px;width: 12px;height: 12px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);}
 /* agile PJT flow */
 .content-wrap.agile-case {width:400px;padding-left:0;margin:100px auto 0;}
 .agile-header {text-align: center;position: relative;width: 300px;margin:0 auto;}
@@ -165,7 +138,7 @@ height: 12px;
 .agile-case .task-description-list p {position: absolute;width: 250%;left:-75%;}
 .agile-case .waterfall-step-divide:after {top: 46px;left: 23px}
 
-.bottom-wrap {color: #6d7081;font-size: 18px;text-align: center;padding:10px 20px; border:1px solid #dcdcdc;border-radius: 15px;   -moz-border-radius:  15px;   -webkit-border-radius: 15px;letter-spacing: -1px;line-height: normal;background-color: #fcfcfc;margin: 0 5%;}
+.bottom-wrap {color: #6d7081;font-size: 18px;text-align: center;padding:10px 20px; border:1px solid #dcdcdc;border-radius: 15px;   -moz-border-radius:  15px;   -webkit-border-radius: 15px;letter-spacing: -1px;line-height: normal;background-color: #fcfcfc;margin: 0 9%;}
 .pjt-note-list {overflow: hidden;text-align: left;position: relative;}
 .pjt-note-list li {width: 50%;float: left;}
 .pjt-note {color: #444;padding-left: 15px;}
